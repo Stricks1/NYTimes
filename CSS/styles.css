@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+ul {
+    list-style-type: none;
+}
+
 
 /* common and shared classes */
 
@@ -32,10 +36,10 @@
 
 .main-header {
     width: 100%;
-    padding: px;
     padding: 10px;
     border-bottom: 1px solid rgb(34, 34, 34);
     background-color: white;
+    top: 0;
 }
 
 .right-nav {
@@ -69,16 +73,31 @@
 
 /* Footer Styling */
 
-.footer-page {}
+.footer-page {
+    margin-top: 200px;
+    background-color: aquamarine;
+}
 
 .inline-block {
     display: inline-block;
 }
 
 .footer-div {
-
+    background-color: green;
 }
 
 .footer-div>section {
     display: inline-block;
+    vertical-align: top;
+    background-color: red;
 }
+
+.footer-last-nav>li {
+    display: inline-block;
+}
+
+.footer-last-nav {
+    text-align: center;
+}
+
+ar
