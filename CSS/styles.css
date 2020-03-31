@@ -100,4 +100,35 @@ ul {
     text-align: center;
 }
 
-ar
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.footer-page header:first-child::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* Linked Articles Style */
+
+.linked-articles {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.linked-articles>figure {}
+
+.linked-articles>* {
+    border: 1px red solid;
+}
+
+.linked-articles span:last-child {
+    text-align: left;
+    color: #999999;
+}
