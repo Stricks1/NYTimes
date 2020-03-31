@@ -1,0 +1,31 @@
+.fixed {
+    position: fixed;
+}
+
+.relative-position {
+    position: relative;
+}
+
+.absolute-position {
+    position: absolute;
+}
+
+.align-center {
+    vertical-align: top;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.a-logo {
+    text-align: center;
+    width: 195px;
+    height: 26px;
+    display: inline-block;
+    vertical-align: middle;
+}

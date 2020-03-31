@@ -1,134 +1,95 @@
-/* css reser */
-
-*,
-*::before,
-*::after {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-ul {
-    list-style-type: none;
-}
-
-
-/* common and shared classes */
-
-.fixed {
-    position: fixed;
-}
-
-.relative-position {
-    position: relative;
-}
-
-.absolute-position {
-    position: absolute;
-}
-
-.align-center {
-    vertical-align: top;
-}
-
-
 /* header styles */
 
-.main-header {
+#main-header {
+    position: fixed;
     width: 100%;
-    padding: 10px;
-    border-bottom: 1px solid rgb(34, 34, 34);
-    background-color: white;
     top: 0;
+    box-sizing: border-box;
+    padding: 2px 0px;
+    border-bottom: 1px solid #e2e2e2;
 }
 
-.right-nav {
-    position: absolute;
-    right: 0px;
-    top: 0px;
+#main-header>div {
+    position: relative;
+    padding: 6px 15px;
 }
 
-.left-nav {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-}
-
-.left-nav svg {
+#main-header .svg-link {
     width: 16px;
     height: 16px;
-    margin: 6px;
+    padding: 4px;
 }
 
-.logo>a {
+#main-header .left-nav a,
+#main-header .right-nav a {
     display: inline-block;
-    width: 195px;
-    height: 26px;
+    vertical-align: middle;
+    margin-right: 10px;
+    cursor: pointer;
 }
 
-.logo {
+#main-header .left-nav a:last-child {
+    font-size: 14.25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#main-header .right-nav a {
+    margin-right: 2px;
+}
+
+#main-header .left-nav,
+#main-header .right-nav {
+    position: absolute;
+}
+
+#main-header .left-nav {
+    left: 15px;
+    top: 6px;
+}
+
+#main-header .right-nav {
+    right: 10px;
+    top: 2px;
+    padding-right: 10px;
+}
+
+#main-header .right-nav button {
+    border-radius: 3px;
+    cursor: pointer;
+    white-space: nowrap;
+    background-color: #567b95;
+    border: 1px solid #326891;
+    color: #fff;
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 700;
+    padding: 11px 12px 8px 11px;
+    text-transform: uppercase;
+}
+
+
+/* style for logo div */
+
+#main-header>div div:first-of-type {
     text-align: center;
 }
 
 
-/* Footer Styling */
+/* 
+=============================================
+style for very last footer
+=============================================
+*/
 
-.footer-page {
-    margin-top: 200px;
-    background-color: aquamarine;
-}
-
-.inline-block {
-    display: inline-block;
-}
-
-.footer-div {
-    background-color: green;
-}
-
-.footer-div>section {
-    display: inline-block;
-    vertical-align: top;
-    background-color: red;
-}
-
-.footer-last-nav>li {
-    display: inline-block;
-}
-
-.footer-last-nav {
+#horizontal-footer-nav {
+    border-top: 1px solid #e2e2e2;
     text-align: center;
+    padding: 9px 3% 45px;
 }
 
-.float-right {
-    float: right;
-}
-
-.float-left {
-    float: left;
-}
-
-.footer-page header:first-child::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-
-/* Linked Articles Style */
-
-.linked-articles {
-    text-decoration: none;
+#horizontal-footer-nav li {
     display: inline-block;
-}
-
-.linked-articles>figure {}
-
-.linked-articles>* {
-    border: 1px red solid;
-}
-
-.linked-articles span:last-child {
-    text-align: left;
-    color: #999999;
+    font-size: 11px;
+    padding: 10px 10px;
 }
