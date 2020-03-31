@@ -7,6 +7,7 @@
     box-sizing: border-box;
     padding: 2px 0px;
     border-bottom: 1px solid #e2e2e2;
+    background-color: #fff;
 }
 
 #main-header>div {
@@ -82,14 +83,127 @@ style for very last footer
 =============================================
 */
 
+#footer-header {
+    position: relative;
+    border-top: 1px double #e2e2e2;
+    padding-top: 10px;
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+
+#footer-header>div {
+    display: inline-block;
+}
+
+#footer-header>div:last-child {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: rgb(86, 123, 149);
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+    text-decoration: none;
+}
+
 #horizontal-footer-nav {
     border-top: 1px solid #e2e2e2;
     text-align: center;
     padding: 9px 3% 45px;
+    margin-top: 8px
 }
 
 #horizontal-footer-nav li {
     display: inline-block;
     font-size: 11px;
     padding: 10px 10px;
+}
+
+footer {
+    margin-top: 200px;
+    border-top: 2px double #e2e2e2;
+    width: 100%;
+}
+
+footer>div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer>div>section {
+    flex: 1 1;
+}
+
+
+/* footer>div>section {
+    display: inline-block;
+    vertical-align: top;
+} */
+
+footer>div>section>h2 {
+    color: rgb(51, 51, 51);
+    font-size: 13px;
+    font-weight: 700;
+    height: 25px;
+    line-height: 15px;
+    text-transform: uppercase;
+    width: 150px;
+    margin: 0px;
+}
+
+footer>div>section>ul>li>a {
+    display: block;
+    text-transform: capitalize;
+    min-width: 150px;
+    font-size: 14px;
+    font-weight: 500;
+    height: 23px;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+footer>div>section:last-child {
+    border-left: #e2e2e2 1px solid;
+}
+
+footer>div>section:last-child>* {
+    margin-left: 15px
+}
+
+footer>div>section:last-child>ul:last-of-type {
+    border-top: #e2e2e2 1px solid;
+    margin-top: 8px;
+    padding-top: 8px;
+}
+
+footer>div>section:last-child>ul:last-of-type li a,
+footer>div>section:last-child>ul:nth-of-type(2) li a {
+    display: block;
+    text-transform: capitalize;
+    width: 150px;
+    font-size: 11px;
+    font-weight: 500;
+    height: 23px;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+footer>div>section:last-child>ul:first-of-type li a {
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+    height: 30px;
+    line-height: 15px;
+    padding-bottom: 0px;
+    text-decoration: none;
+}
+
+footer>div>section:last-child>ul:first-of-type li a>svg {
+    width: 13px;
+    height: 13px;
+    margin-right: 7px;
+    vertical-align: middle;
+    overflow: hidden;
 }
