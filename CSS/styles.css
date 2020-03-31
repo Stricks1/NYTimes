@@ -65,3 +65,20 @@
 .logo {
     text-align: center;
 }
+
+
+/* Footer Styling */
+
+.footer-page {}
+
+.inline-block {
+    display: inline-block;
+}
+
+.footer-div {
+
+}
+
+.footer-div>section {
+    display: inline-block;
+}
