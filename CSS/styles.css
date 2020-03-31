@@ -1,0 +1,67 @@
+/* css reser */
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* common and shared classes */
+
+.fixed {
+    position: fixed;
+}
+
+.relative-position {
+    position: relative;
+}
+
+.absolute-position {
+    position: absolute;
+}
+
+.align-center {
+    vertical-align: top;
+}
+
+
+/* header styles */
+
+.main-header {
+    width: 100%;
+    padding: px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(34, 34, 34);
+    background-color: white;
+}
+
+.right-nav {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.left-nav {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.left-nav svg {
+    width: 16px;
+    height: 16px;
+    margin: 6px;
+}
+
+.logo>a {
+    display: inline-block;
+    width: 195px;
+    height: 26px;
+}
+
+.logo {
+    text-align: center;
+}
