@@ -122,13 +122,112 @@ ul {
     display: inline-block;
 }
 
-.linked-articles>figure {}
-
-.linked-articles>* {
-    border: 1px red solid;
+.linked-articles>figure>figcaption{
+    color: #999999;
+    font-size: 0.7em;
+    text-align: right;
+    min-height: 12px;
+    margin-top: 3px;
+    margin-bottom: 4px;
+    font-family: nyt-cheltenham-small, georgia, "times new roman";
 }
 
-.linked-articles span:last-child {
-    text-align: left;
+.linked-articles span:first-of-type{
+    color: black;
+    display: block;
+    line-height: 22px;
+}
+
+.linked-articles span:first-of-type:hover{
+    color: #666666;
+}
+
+.linked-articles span:last-of-type{
     color: #999999;
+    text-align: left;
+    font-size: 0.7em;
+}
+
+.outside-links-container {
+    max-width: 1200px;
+    margin: 100px auto 0 auto; /*100px just to not be hidden by the navbar */
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.figure-links-container {
+    width: 85%;
+}
+
+.figure-link {
+    flex-grow: 1;
+    margin: 0 20px 20px 0; 
+}
+
+.figure-link>div>a>figure>img{
+    max-width: 100%;
+}
+
+.figure-link>a>figure>img{
+    max-width: 100%;
+}
+
+.more-subject>h3 {
+    padding: 22px 0 17px 0;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    border-top: solid black 1px;
+    margin-right: 20px;
+}
+
+.more-subject>h3>a {
+    color: black;
+    text-decoration: none;
+}
+
+.more-subject>h3:hover {
+    text-decoration: underline;
+}
+
+.most-popular {
+    width: 30%;
+    margin-left: 30px;
+}
+
+.most-popular>section>h3 {
+    padding: 22px 0 17px 0;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    border-top: solid black 1px;
+    color: #333333;
+}
+
+.most-popular>section>ul>li {
+    border-top: solid #e2e2e2 1px;
+    padding: 15px 0;
+}
+
+.most-popular>section>ul>li>a {
+    text-decoration: none;
+    color: black;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 1.15em;
+    line-height: 1.4em;
+    font-weight: normal;
+}
+
+.most-popular>section>ul>li>a:hover {
+    color: #666666;
 }
