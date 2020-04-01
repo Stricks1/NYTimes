@@ -1,3 +1,10 @@
+#content-wrapper {
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 50px;
+}
+
+
 /* header styles */
 
 #main-header {
@@ -78,6 +85,95 @@
 
 
 /* 
+========================================
+more arcticles styles
+========================================
+ */
+
+.more-articles-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.more-articles-container .more-articles-thumbnails {
+    flex: 1;
+}
+
+.more-articles-container .more-articles-list {
+    flex: 1;
+    margin-left: 30px;
+    max-width: 315px;
+}
+
+.more-articles-list>h2 {
+    padding: 15px 0px;
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.more-articles-list>div>h3 {
+    border-bottom: 1px solid rgb(226, 226, 226);
+    padding: 15px 0px;
+    font-size: 16px;
+}
+
+.more-articles-thumbnails>section>h2 {
+    padding: 15px 0px;
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    border-top: 1px solid black;
+}
+
+.thumbnail-container {
+    margin: 0 -10px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1em;
+}
+
+.thumbnail {
+    margin: 10px;
+    flex: 1 1 250px;
+    max-width: 275px;
+}
+
+.thumbnail>* {
+    display: block;
+    max-width: 100%;
+}
+
+.thumbnail figcaption {
+    font-family: sans;
+    text-align: end;
+    font-size: 0.7em;
+    padding-bottom: 4px;
+    margin: 3px 0px 0px;
+    color: rgb(153, 153, 153);
+    line-height: 1.23em;
+}
+
+.thumbnail figure img {
+    width: 100%;
+}
+
+.thumbnail h3 {
+    font-size: 1.1em;
+    font-family: sans;
+    font-weight: 500;
+}
+
+.thumbnail>span {
+    margin-top: 5px;
+    font-size: 0.8em;
+    color: rgb(153, 153, 153);
+}
+
+
+/* 
 =============================================
 style for very last footer
 =============================================
@@ -121,7 +217,6 @@ style for very last footer
 }
 
 footer {
-    margin-top: 200px;
     border-top: 2px double #e2e2e2;
     width: 100%;
 }
@@ -156,7 +251,7 @@ footer>div>section>ul>li>a {
     display: block;
     text-transform: capitalize;
     min-width: 150px;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     height: 23px;
     line-height: 16px;
