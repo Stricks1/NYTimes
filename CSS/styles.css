@@ -171,11 +171,11 @@ ul {
 
 .figure-link {
     flex-grow: 1;
-    margin: 0 20px 20px 0; 
+    margin: 0 0 20px 0; 
 }
 
-.figure-link>div>a>figure>img{
-    max-width: 100%;
+.figure-link>a{
+    max-width: 94%;
 }
 
 .figure-link>a>figure>img{
