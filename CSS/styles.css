@@ -32,55 +32,8 @@ ul {
 }
 
 
-/* header styles 
+/* header styles */
 
-.main-header {
-    width: 100%;
-    padding: 10px;
-    border-bottom: 1px solid rgb(34, 34, 34);
-    background-color: white;
-    top: 0;
-}
-
-.right-nav {
-    position: absolute;
-    right: 10px;
-    top: 0px;
-}
-
-.right-nav>a>button {
-    color: white;
-    background-color: #567b93;
-    border-radius: 3px;
-    border: solid 1px #326891;
-    height: 30px;
-    padding: 0 15px;
-}
-
-.left-nav {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-}
-
-.left-nav svg {
-    width: 16px;
-    height: 16px;
-    margin: 6px;
-}
-
-.logo>a {
-    display: inline-block;
-    width: 195px;
-    height: 26px;
-}
-
-/* commented to reuse logo without center alignment
-.logo {
-    text-align: center;
-}
-
-*/
 .text-center {
     text-align: center;
 }
@@ -143,9 +96,15 @@ ul {
     color: white;
     background-color: #567b93;
     border-radius: 3px;
+    transition: 0.4s;
     border: solid 1px #326891;
     height: 30px;
     padding: 0 15px;
+    cursor: pointer;
+}
+
+.right-nav>a>button:hover{
+    background-color: #326891;
 }
 
 #header-nav-container {
@@ -514,9 +473,15 @@ main>article>header>div>h1{
 
 .share-info {
     justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 32px;
 }
 
 .share-info>li:first-of-type {
+    align-self: center;
+}
+
+.share-buttons{
     align-self: center;
 }
 
@@ -681,6 +646,23 @@ main>article>header>div>h1{
 
 .article-img-container>figure>div>img{
     width: 100%;
+}
+
+.comment-button {
+    color: white;
+    background-color: #567b93;
+    border-radius: 3px;
+    border: solid 1px #326891;
+    height: 35px;
+    transition: 0.4s;
+    width: 330px;
+    padding: 0 15px;
+    cursor: pointer;
+    align-self: center;
+}
+
+.comment-button:hover{
+    background-color: #326891;
 }
 
 /* Aside bar Style */
