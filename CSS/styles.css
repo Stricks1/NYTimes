@@ -47,6 +47,11 @@
   cursor: pointer;
 }
 
+.article-p-container a,
+.article-p-container a:visited {
+  color: #326891;
+}
+
 .left-nav > div > a {
   text-decoration: none;
   color: black;
@@ -229,6 +234,7 @@ main > article > header > div > h1 {
   stroke: #ccc;
 }
 
+/* Bubble comments on header styled with background image
 .comment-text {
   background-image: url(/Images/bubble.png);
   background-position: center;
@@ -242,7 +248,7 @@ main > article > header > div > h1 {
   display: block;
   margin: 8px;
   color: black;
-}
+} */
 
 .share-btn {
   width: 16px;
@@ -293,17 +299,12 @@ main > article > header > div > h1 {
   color: #666;
 }
 
-.article-p-container > .footer-links > span > a {
-  color: #666;
-}
-
-.article-p-container a,
-.article-p-container a:visited {
-  color: #326891;
-}
-
 .article-p-container a:hover {
   text-decoration: none;
+}
+
+.article-p-container > .footer-links > span > a {
+  color: #666;
 }
 
 /* create account styling */
@@ -507,7 +508,6 @@ aside h3 {
   min-height: 12px;
   margin-top: 3px;
   margin-bottom: 4px;
-  font-family: georgia, 'times new roman';
 }
 
 .linked-articles span:first-of-type {
