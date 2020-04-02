@@ -35,6 +35,18 @@
   margin-right: 9px;
 }
 
+.right-nav > a {
+  display: inline-block;
+  color: white;
+  background-color: #567b93;
+  border-radius: 3px;
+  transition: 0.4s;
+  border: solid 1px #326891;
+  line-height: 30px;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
 .left-nav > div > a {
   text-decoration: none;
   color: black;
@@ -51,18 +63,6 @@
 .right-nav {
   right: 10px;
   top: 10px;
-}
-
-.right-nav > a {
-  display: inline-block;
-  color: white;
-  background-color: #567b93;
-  border-radius: 3px;
-  transition: 0.4s;
-  border: solid 1px #326891;
-  line-height: 30px;
-  padding: 0 15px;
-  cursor: pointer;
 }
 
 .right-nav > a:hover {
@@ -152,12 +152,12 @@ main > article > header > div > h1 {
   margin-bottom: 20px;
 }
 
-.publish-info > p > a {
+.publish-link {
   color: #333;
   text-decoration-color: #ccc;
 }
 
-.publish-info > p > a:hover {
+.publish-link:hover {
   text-decoration: none;
 }
 
@@ -507,7 +507,7 @@ aside h3 {
   min-height: 12px;
   margin-top: 3px;
   margin-bottom: 4px;
-  font-family: georgia, "times new roman";
+  font-family: georgia, 'times new roman';
 }
 
 .linked-articles span:first-of-type {
