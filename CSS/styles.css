@@ -476,6 +476,73 @@ aside h3 {
 
 /* additional links styles */
 
+.outside-links-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.figure-links-container {
+    width: 85%;
+}
+
+.figure-link {
+    flex-grow: 1;
+    margin: 0 20px 20px 0;
+}
+
+.figure-link>a>figure {
+    max-width: 100%;
+}
+
+.figure-link>a>figure>img {
+    max-width: 100%;
+}
+
+.linked-articles {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.linked-articles>figure>figcaption {
+    color: #999999;
+    font-size: 0.7em;
+    text-align: right;
+    min-height: 12px;
+    margin-top: 3px;
+    margin-bottom: 4px;
+    font-family: nyt-cheltenham-small, georgia, "times new roman";
+}
+
+.linked-articles span:first-of-type {
+    color: black;
+    display: block;
+    line-height: 22px;
+}
+
+.linked-articles span:first-of-type:hover {
+    color: #666666;
+}
+
+.linked-articles span:last-of-type {
+    color: #999999;
+    text-align: left;
+    font-size: 0.7em;
+}
+
+.more-subject>h3 {
+    padding: 22px 0 17px 0;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    border-top: solid black 1px;
+    margin-right: 20px;
+}
+
+.more-subject>h3>a {
+    color: black;
+    text-decoration: none;
+}
+
 .most-popular {
     width: 30%;
     margin-left: 30px;
