@@ -684,6 +684,7 @@ main>article>header>div>h1{
     height: 600px;
     margin: auto;
     max-width: 945px;
+    min-width: 875px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
