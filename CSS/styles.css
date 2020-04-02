@@ -665,6 +665,67 @@ main>article>header>div>h1{
     background-color: #326891;
 }
 
+/* Theory Inflation Style */
+
+.theory-header-container {
+    max-width: 945px;
+    margin: auto;
+}
+
+.theory-header-container span {
+    color: #666;
+    font-size: 13px;
+}
+
+.inflation-theory{
+    background-image: url(/Images/inflation.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin: auto;
+    max-width: 945px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 20px;
+}
+
+.inflation-theory span {
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: .05em;
+}
+
+.inflation-theory p {
+    font-size: 13px;
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+}
+
+.first-row{
+    grid-row: 2;
+}
+
+.secound-row{
+    grid-row: 4;
+}
+
+.theory-footer-container {
+    max-width: 945px;
+    margin: 50px auto;
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    font-size: 13px;
+    color: #333;
+}
+
+.theory-footer-container::before {
+    width: 60px;
+    content: '';
+    display: inline-block;
+    height: 1px;
+    margin: 0 0 16px;
+    background-color: #000;
+}
+
 /* Aside bar Style */
 
 aside {
