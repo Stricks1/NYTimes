@@ -147,9 +147,7 @@ main>article>header>div>h1 {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-weight: bold;
     font-size: 14px;
-    ;
     margin-bottom: 20px;
-    ;
 }
 
 .publish-info>p>a {
@@ -248,4 +246,113 @@ main>article>header>div>h1 {
     width: 16px;
     height: 13px;
     margin: 8px 5px;
+}
+
+
+/* article p styling */
+
+.article-p-container {
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr;
+    max-width: 1800px;
+    margin: auto;
+}
+
+.article-p-container p {
+    margin-bottom: 15px;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    color: #333;
+    font-size: 22px;
+    grid-column: 2;
+}
+
+.article-p-container div {
+    grid-column: 2;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 12px;
+    margin-bottom: 12px;
+    color: #666;
+}
+
+.article-p-container>.footer-links>span>a {
+    color: #666;
+}
+
+.article-p-container a,
+.article-p-container a:visited {
+    color: #326891;
+}
+
+.article-p-container a:hover {
+    text-decoration: none;
+}
+
+
+/* create account styling */
+
+.create-account-div {
+    grid-column: 2;
+}
+
+.create-account-div div {
+    margin: auto;
+    width: 72px;
+    border-bottom: solid 1px #ccc;
+    margin-bottom: 15px;
+}
+
+.create-account-div span {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.create-account-div a {
+    display: block;
+    text-decoration: none;
+    padding-bottom: 15px;
+}
+
+
+/* aside styles */
+
+aside {
+    width: 210px;
+    height: 327px;
+    margin: 0 auto;
+    grid-column: 3;
+    grid-row: span 3;
+    align-self: center;
+}
+
+aside h3 {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 14px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #ccc;
+}
+
+.aside-bar-container {
+    margin-top: 15px;
+}
+
+.aside-bar-container>.figure-link>a {
+    text-decoration: none;
+    color: #333;
+    font-size: 12px;
+}
+
+.aside-bar-container>.figure-link>a>img {
+    width: 75px;
+    height: 75px;
+    margin-right: 10px;
+}
+
+.aside-bar-container>.figure-link>a>span {
+    align-self: center;
+}
+
+.aside-bar-container>div {
+    margin-bottom: 10px;
 }
