@@ -59,3 +59,19 @@ ul {
 .underline-hover-span:hover span {
     text-decoration: underline;
 }
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}

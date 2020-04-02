@@ -79,23 +79,14 @@
 
 /* Main article Styling */
 
+
+/* Main Header */
+
 main {
     margin-top: 100px;
 }
 
 main>article>header>div:first-of-type {
-    max-width: 600px;
-    margin: auto;
-}
-
-.article-p-container {
-    display: grid;
-    grid-template-columns: 1fr 600px 1fr;
-    max-width: 1800px;
-    margin: auto;
-}
-
-.article-p-container-2 {
     max-width: 600px;
     margin: auto;
 }
@@ -130,22 +121,21 @@ main>article>header>div>h1 {
     margin-top: 10px;
 }
 
-.main-img-container>figure>div>figcaption>span:first-of-type,
-.video-container>figure>div>figcaption>span:first-of-type,
-.article-img-container>figure>div>figcaption>span:first-of-type {
+.main-img-container>figure>div>figcaption>span:first-of-type {
     color: #666;
     font-size: 16.5px;
     font-family: nyt-imperial, georgia, 'times new roman', times, serif;
     margin-right: 7px;
 }
 
-.main-img-container>figure>div>figcaption>span:last-of-type,
-.video-container>figure>div>figcaption>span:last-of-type,
-.article-img-container>figure>div>figcaption>span:last-of-type {
+.main-img-container>figure>div>figcaption>span:last-of-type {
     color: #888;
     font-size: 14px;
     font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
+
+
+/* Publisher info Style */
 
 .publish-info {
     max-width: 600px;
@@ -202,4 +192,60 @@ main>article>header>div>h1 {
     background-color: white;
     border: 1px solid #eee;
     cursor: pointer;
+}
+
+.facebook {
+    width: 7px;
+    height: 15px;
+    margin: 6px 8px;
+}
+
+.twitter {
+    width: 13px;
+    height: 10px;
+    margin: 7px;
+}
+
+.email {
+    width: 15px;
+    height: 9px;
+    margin: 8px 5px;
+}
+
+.bookmark {
+    stroke: none;
+    width: 16px;
+    height: 25px;
+    margin: 8px;
+    background-color: white;
+}
+
+.bookmark-border {
+    stroke: #666;
+}
+
+.bookmark:hover>a>svg>g>.bookmark-border {
+    cursor: pointer;
+    stroke: #CCC;
+}
+
+.comment-text {
+    background-image: url(/Images/bubble.png);
+    background-position: center;
+    margin-left: 8px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.comment-text span {
+    font-size: 10px;
+    display: block;
+    margin: 8px;
+    color: black;
+}
+
+.share-btn {
+    width: 16px;
+    height: 13px;
+    margin: 8px 5px;
 }
