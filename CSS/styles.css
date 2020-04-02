@@ -121,14 +121,18 @@ main>article>header>div>h1 {
     margin-top: 10px;
 }
 
-.main-img-container>figure>div>figcaption>span:first-of-type {
+.main-img-container>figure>div>figcaption>span:first-of-type,
+.video-container>figure>div>figcaption>span:first-of-type,
+.article-img-container>figure>div>figcaption>span:first-of-type {
     color: #666;
     font-size: 16.5px;
     font-family: nyt-imperial, georgia, 'times new roman', times, serif;
     margin-right: 7px;
 }
 
-.main-img-container>figure>div>figcaption>span:last-of-type {
+.main-img-container>figure>div>figcaption>span:last-of-type,
+.video-container>figure>div>figcaption>span:last-of-type,
+.article-img-container>figure>div>figcaption>span:last-of-type {
     color: #888;
     font-size: 14px;
     font-family: nyt-imperial, georgia, 'times new roman', times, serif;
@@ -355,4 +359,97 @@ aside h3 {
 
 .aside-bar-container>div {
     margin-bottom: 10px;
+}
+
+
+/* Style for Theory of Inflation */
+
+.theory-header-container {
+    max-width: 945px;
+    margin: 30px auto 0;
+}
+
+.theory-header-container span {
+    color: #666;
+    font-size: 13px;
+}
+
+.inflation-theory {
+    background-image: url(/Images/inflation.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin: auto;
+    max-width: 945px;
+    min-width: 875px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 20px;
+}
+
+.inflation-theory span {
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: .05em;
+}
+
+.inflation-theory p {
+    font-size: 13px;
+    font-family: nyt-franklin, arial, helvetica, sans-serif;
+}
+
+.first-row {
+    grid-row: 2;
+}
+
+.secound-row {
+    grid-row: 4;
+}
+
+.theory-footer-container {
+    max-width: 945px;
+    margin: 50px auto;
+    font-family: nyt-franklin, arial, helvetica, sans-serif;
+    font-size: 13px;
+    color: #333;
+}
+
+.theory-footer-container::before {
+    width: 60px;
+    content: '';
+    display: inline-block;
+    height: 1px;
+    margin: 0 0 16px;
+    background-color: #000;
+}
+
+
+/* Style Image inside article */
+
+.article-img-container{
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.article-img-container>figure{
+    width: 100%;
+}
+
+.article-img-container>figure>div{
+    max-width: 720px;
+    width: 100%;
+    margin: auto;
+}
+
+.article-img-container>figure>div>figcaption {
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.article-img-container>figure>div>img{
+    width: 100%;
 }
