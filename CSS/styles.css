@@ -92,7 +92,7 @@ main > article > header > div:first-of-type {
 
 main > article > header > div > h1 {
   color: #121212;
-  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  font-family: georgia, 'times new roman', times, serif;
   font-style: italic;
   font-size: 2.5em;
   margin-bottom: 16px;
@@ -125,7 +125,7 @@ main > article > header > div > h1 {
 .article-img-container > figure > figcaption > span:first-of-type {
   color: #666;
   font-size: 16.5px;
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-family: georgia, 'times new roman', times, serif;
   margin-right: 7px;
 }
 
@@ -134,7 +134,7 @@ main > article > header > div > h1 {
 .article-img-container > figure > figcaption > span:last-of-type {
   color: #888;
   font-size: 14px;
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-family: georgia, 'times new roman', times, serif;
 }
 
 /* Publisher info Style */
@@ -146,7 +146,7 @@ main > article > header > div > h1 {
 }
 
 .publish-info > p {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
   font-weight: bold;
   font-size: 14px;
   margin-bottom: 20px;
@@ -279,7 +279,7 @@ main > article > header > div > h1 {
 
 .article-p-container p {
   margin-bottom: 15px;
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-family: georgia, 'times new roman', times, serif;
   color: #333;
   font-size: 22px;
   grid-column: 2;
@@ -287,7 +287,7 @@ main > article > header > div > h1 {
 
 .article-p-container div {
   grid-column: 2;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
   font-size: 12px;
   margin-bottom: 12px;
   color: #666;
@@ -344,7 +344,7 @@ aside {
 }
 
 aside h3 {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
   font-size: 14px;
   padding-bottom: 10px;
   border-bottom: solid 1px #ccc;
@@ -408,7 +408,7 @@ aside h3 {
 
 .inflation-theory p {
   font-size: 13px;
-  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-family: arial, helvetica, sans-serif;
 }
 
 .first-row {
@@ -422,7 +422,7 @@ aside h3 {
 .theory-footer-container {
   max-width: 945px;
   margin: 50px auto;
-  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-family: arial, helvetica, sans-serif;
   font-size: 13px;
   color: #333;
 }
@@ -443,10 +443,6 @@ aside h3 {
   margin: auto;
   text-align: center;
   margin-bottom: 40px;
-}
-
-.article-img-container > figure {
-  width: 100%;
 }
 
 .article-img-container > figure {
@@ -511,7 +507,7 @@ aside h3 {
   min-height: 12px;
   margin-top: 3px;
   margin-bottom: 4px;
-  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  font-family: georgia, "times new roman";
 }
 
 .linked-articles span:first-of-type {
@@ -534,7 +530,7 @@ aside h3 {
   padding: 22px 0 17px 0;
   font-size: 15px;
   font-weight: bold;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
   border-top: solid black 1px;
   margin-right: 20px;
 }
@@ -548,7 +544,7 @@ aside h3 {
   padding: 22px 0 17px 0;
   font-size: 15px;
   font-weight: bold;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
   border-top: solid black 1px;
   color: #333;
 }
@@ -561,7 +557,7 @@ aside h3 {
 .most-popular > section > ul > li > a {
   text-decoration: none;
   color: black;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
   font-size: 1.15em;
   line-height: 1.4em;
   font-weight: normal;
@@ -662,6 +658,7 @@ aside h3 {
 
 .footer-last-nav {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .subscribe-div-section > section > .font-10 > li > a {
@@ -683,8 +680,4 @@ aside h3 {
   text-decoration: none;
   font-size: 10px;
   color: #333;
-}
-
-.footer-last-nav {
-  text-align: center;
 }
