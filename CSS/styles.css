@@ -474,6 +474,41 @@ aside h3 {
 }
 
 
+/* additional links styles */
+
+.most-popular {
+    width: 30%;
+    margin-left: 30px;
+}
+
+.most-popular>section>h3 {
+    padding: 22px 0 17px 0;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    border-top: solid black 1px;
+    color: #333333;
+}
+
+.most-popular>section>ul>li {
+    border-top: solid #e2e2e2 1px;
+    padding: 15px 0;
+}
+
+.most-popular>section>ul>li>a {
+    text-decoration: none;
+    color: black;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 1.15em;
+    line-height: 1.4em;
+    font-weight: normal;
+}
+
+.most-popular>section>ul>li>a:hover {
+    color: #666666;
+}
+
+
 /* footer styling */
 
 .footer-page header:first-child::after {
