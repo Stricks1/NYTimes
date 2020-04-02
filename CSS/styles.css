@@ -47,14 +47,30 @@
   cursor: pointer;
 }
 
-.article-p-container a,
-.article-p-container a:visited {
+.article-p-container a {
   color: #326891;
 }
 
 .left-nav > div > a {
   text-decoration: none;
   color: black;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.create-account-div a {
+  display: block;
+  text-decoration: none;
+  padding-bottom: 15px;
+}
+
+.article-p-container a:visited {
+  color: #326891;
+}
+
+.create-account-div span {
+  display: block;
+  text-align: center;
   font-weight: bold;
   font-size: 13px;
 }
@@ -85,6 +101,25 @@
 /* Main article Styling */
 
 /* Main Header */
+
+.article-p-container div {
+  grid-column: 2;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 12px;
+  margin-bottom: 12px;
+  color: #666;
+}
+
+.create-account-div div {
+  margin: auto;
+  width: 72px;
+  border-bottom: solid 1px #ccc;
+  margin-bottom: 15px;
+}
+
+.aside-bar-container > div {
+  margin-bottom: 10px;
+}
 
 main {
   margin-top: 100px;
@@ -123,6 +158,10 @@ main > article > header > div > h1 {
   width: 72%;
   text-align: left;
   margin-top: 10px;
+}
+
+.aside-bar-container > .figure-link > a > span {
+  align-self: center;
 }
 
 .main-img-container > figure > figcaption > span:first-of-type,
@@ -291,16 +330,14 @@ main > article > header > div > h1 {
   grid-column: 2;
 }
 
-.article-p-container div {
-  grid-column: 2;
-  font-family: helvetica, arial, sans-serif;
-  font-size: 12px;
-  margin-bottom: 12px;
-  color: #666;
-}
-
 .article-p-container a:hover {
   text-decoration: none;
+}
+
+.aside-bar-container > .figure-link > a {
+  text-decoration: none;
+  color: #333;
+  font-size: 12px;
 }
 
 .article-p-container > .footer-links > span > a {
@@ -311,26 +348,6 @@ main > article > header > div > h1 {
 
 .create-account-div {
   grid-column: 2;
-}
-
-.create-account-div div {
-  margin: auto;
-  width: 72px;
-  border-bottom: solid 1px #ccc;
-  margin-bottom: 15px;
-}
-
-.create-account-div span {
-  display: block;
-  text-align: center;
-  font-weight: bold;
-  font-size: 13px;
-}
-
-.create-account-div a {
-  display: block;
-  text-decoration: none;
-  padding-bottom: 15px;
 }
 
 /* aside styles */
@@ -355,24 +372,10 @@ aside h3 {
   margin-top: 15px;
 }
 
-.aside-bar-container > .figure-link > a {
-  text-decoration: none;
-  color: #333;
-  font-size: 12px;
-}
-
 .aside-bar-container > .figure-link > a > img {
   width: 75px;
   height: 75px;
   margin-right: 10px;
-}
-
-.aside-bar-container > .figure-link > a > span {
-  align-self: center;
-}
-
-.aside-bar-container > div {
-  margin-bottom: 10px;
 }
 
 /* Style for Theory of Inflation */
