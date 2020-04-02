@@ -669,7 +669,7 @@ main>article>header>div>h1{
 
 .theory-header-container {
     max-width: 945px;
-    margin: auto;
+    margin: 30px auto 0;
 }
 
 .theory-header-container span {
