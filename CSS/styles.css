@@ -51,17 +51,17 @@
   color: #326891;
 }
 
+.create-account-div a {
+  display: block;
+  text-decoration: none;
+  padding-bottom: 15px;
+}
+
 .left-nav > div > a {
   text-decoration: none;
   color: black;
   font-weight: bold;
   font-size: 13px;
-}
-
-.create-account-div a {
-  display: block;
-  text-decoration: none;
-  padding-bottom: 15px;
 }
 
 .article-p-container a:visited {
@@ -73,6 +73,17 @@
   text-align: center;
   font-weight: bold;
   font-size: 13px;
+}
+
+.theory-header-container span {
+  color: #666;
+  font-size: 13px;
+}
+  
+.inflation-theory span {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
 }
 
 .left-nav > div > a > span {
@@ -158,6 +169,12 @@ main > article > header > div > h1 {
   width: 72%;
   text-align: left;
   margin-top: 10px;
+}
+
+.linked-articles span:first-of-type {
+  color: black;
+  display: block;
+  line-height: 22px;
 }
 
 .aside-bar-container > .figure-link > a > span {
@@ -372,6 +389,14 @@ aside h3 {
   margin-top: 15px;
 }
 
+.article-img-container > figure > img {
+  width: 100%;
+}
+
+.figure-link > a > figure > img {
+  max-width: 100%;
+}
+
 .aside-bar-container > .figure-link > a > img {
   width: 75px;
   height: 75px;
@@ -383,11 +408,6 @@ aside h3 {
 .theory-header-container {
   max-width: 945px;
   margin: 30px auto 0;
-}
-
-.theory-header-container span {
-  color: #666;
-  font-size: 13px;
 }
 
 .inflation-theory {
@@ -402,12 +422,6 @@ aside h3 {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
   grid-column-gap: 20px;
-}
-
-.inflation-theory span {
-  font-size: 11px;
-  font-weight: bold;
-  letter-spacing: 0.05em;
 }
 
 .inflation-theory p {
@@ -461,10 +475,6 @@ aside h3 {
   margin-top: 10px;
 }
 
-.article-img-container > figure > img {
-  width: 100%;
-}
-
 /* additional links styles */
 
 .outside-links-container {
@@ -495,10 +505,6 @@ aside h3 {
   max-width: 100%;
 }
 
-.figure-link > a > figure > img {
-  max-width: 100%;
-}
-
 .linked-articles {
   text-decoration: none;
   display: inline-block;
@@ -511,12 +517,6 @@ aside h3 {
   min-height: 12px;
   margin-top: 3px;
   margin-bottom: 4px;
-}
-
-.linked-articles span:first-of-type {
-  color: black;
-  display: block;
-  line-height: 22px;
 }
 
 .linked-articles span:first-of-type:hover {
