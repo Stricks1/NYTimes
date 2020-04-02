@@ -48,6 +48,10 @@ ul {
     float: right;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
 .a-logo {
     text-align: center;
     width: 195px;
