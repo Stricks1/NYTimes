@@ -481,8 +481,19 @@ aside h3 {
     margin: 0 auto;
 }
 
+.outside-links-container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
 .figure-links-container {
-    width: 85%;
+    width: 75%;
+    /* background-color: blue; */
+}
+
+.most-popular {
+    margin-left: 78%;
 }
 
 .figure-link {
@@ -541,11 +552,6 @@ aside h3 {
 .more-subject>h3>a {
     color: black;
     text-decoration: none;
-}
-
-.most-popular {
-    width: 30%;
-    margin-left: 30px;
 }
 
 .most-popular>section>h3 {
