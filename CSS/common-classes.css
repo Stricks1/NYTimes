@@ -23,7 +23,7 @@
 }
 
 .hidden {
-    display: none !important;
+    /* display: none !important; */
 }
 
 .a-logo {
@@ -32,4 +32,8 @@
     height: 26px;
     display: inline-block;
     vertical-align: middle;
+}
+
+.underline-hover-span:hover span {
+    text-decoration: underline;
 }

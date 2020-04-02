@@ -1,7 +1,50 @@
+.main-article-header {
+    text-align: left;
+}
+
+.main-article-header>h1 {
+    grid-column: 2/3;
+    margin: 0px auto;
+    font-size: 2.1rem;
+    line-height: 3rem;
+    color: #121212;
+    font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
 #content-wrapper {
     margin: 0 auto;
     width: 90%;
     margin-top: 50px;
+}
+
+
+/* main image style */
+
+.main-image {
+    margin-bottom: 40px
+}
+
+.main-image figure {
+    margin: 0 auto;
+    width: 900px;
+    text-align: center;
+}
+
+.main-image figure figcaption {
+    font-size: 15px;
+    text-align: start;
+    margin-top: 10px;
+    max-width: 720px;
+}
+
+.main-image figure img {
+    width: 100%;
+}
+
+.pub-date {
+    font-size: 14px
 }
 
 
@@ -81,6 +124,315 @@
 
 #main-header>div div:first-of-type {
     text-align: center;
+}
+
+
+/* article styles
+=========================================
+ */
+
+.in-article-info {
+    text-align: center;
+    box-sizing: border-box;
+    max-width: 600px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    margin: 25px auto;
+}
+
+.in-article-info::before {
+    content: "";
+    border-top: 1px solid rgb(226, 226, 226);
+    display: block;
+    margin-bottom: 20px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.in-article-info::after {
+    content: "";
+    border-top: 1px solid rgb(226, 226, 226);
+    display: block;
+    margin-top: 20px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.in-article-info * {
+    display: block;
+}
+
+.in-article-info a {
+    color: #326891;
+}
+
+.inline-links {
+    color: #326891;
+}
+
+.inline-links:hover {
+    text-decoration: underline;
+}
+
+.col-grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 20px;
+}
+
+
+/* .col-grid-3>* {
+    background-color: #326891;
+} */
+
+.col-grid-3>article {
+    grid-column: 2/3;
+}
+
+article {
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    margin-bottom: 0.9375rem;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    max-width: 100%;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+}
+
+article figure {
+    width: 100%;
+    margin: 43px auto;
+}
+
+article figure img,
+article figure iframe {
+    width: 100%;
+    min-height: 320px;
+}
+
+article figure figcaption {
+    color: #666;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    margin: 10px 0px;
+    text-align: left;
+}
+
+article .social-container {
+    margin-bottom: 20px;
+}
+
+.col-grid-3>aside {
+    grid-column: 3/4;
+    align-self: center;
+}
+
+.col-grid-3>aside {
+    width: 100%;
+}
+
+.aside-editor-picks {
+    width: 100%;
+}
+
+.aside-editor-picks h4 {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 700;
+    margin: 0px 0px 15px 0px;
+    padding-bottom: 12px;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.aside-editor-picks img {
+    box-sizing: border-box;
+    width: 75px;
+}
+
+.aside-editor-picks a {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.aside-editor-picks a * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.aside-editor-picks a span {
+    width: calc(100% - 85px);
+    font-size: 0.85em;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+
+/* 
+=======================================
+the theory of infaltion
+=======================================
+ */
+
+.theory-of-inflation {
+    max-width: 945px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.3em;
+    margin: 20px auto;
+}
+
+.theory-footer::before {
+    width: 60px;
+    content: '';
+    display: inline-block;
+    height: 1px;
+    margin: 0 0 13px;
+    background-color: #000;
+}
+
+.theory-footer {
+    margin: 24px 0;
+}
+
+.theory-of-inflation>h3 {
+    line-height: 1.6em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    background-size: contain;
+}
+
+.grid-item>.image {
+    height: 150px;
+    width: 100%;
+}
+
+.grid-item p {
+    width: 228px;
+    font-size: 0.95em;
+    font-weight: 00;
+}
+
+.grid-item p strong {
+    font-size: 0.85em;
+    font-weight: 900;
+}
+
+.the-universe {
+    background: url(/Images/universe.png) no-repeat center;
+    background-size: contain;
+}
+
+.not-enough-time {
+    background: url(/Images/enough-time.png) no-repeat center;
+    background-size: contain;
+}
+
+.distant-coffee {
+    background: url(/Images/coffee.png) no-repeat center;
+    background-size: contain;
+}
+
+.coffee-everywhere {
+    background: url(/Images/many-coffee.png) no-repeat center;
+    background-size: contain;
+}
+
+.still-not-enough-time {
+    background: url(/Images/clocky.jpg) no-repeat center;
+    background-size: contain;
+}
+
+.inflation {
+    background: url(/Images/pop.jpg) no-repeat center;
+    background-size: contain;
+}
+
+.fluctuation {
+    background: url(/Images/lines.jpg) no-repeat center;
+    background-size: contain;
+}
+
+.expansion {
+    background: url(/Images/last.jpg) no-repeat center;
+    background-size: contain;
+}
+
+
+/* 
+========================================
+ref to print media and social
+======================================== */
+
+.bottom-article-footer {
+    grid-column: 2/3;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.refer-to-print {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 0.7rem;
+    line-height: 1rem;
+    color: rgb(102, 102, 102);
+    margin: 0px auto 1em auto;
+}
+
+.read-comments-button {
+    display: block;
+    width: 380px;
+    background-color: rgb(86, 123, 149);
+    cursor: pointer;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+    margin: 0 auto;
+    text-transform: uppercase;
+    border: 1px solid rgb(50, 104, 145);
+    border-radius: 3px;
+    padding: 5px 0px;
+}
+
+.social-nav li {
+    display: inline-block;
+}
+
+.social-nav svg {
+    display: inline-block;
+    height: 15px;
+    vertical-align: middle;
+    width: 15px;
+    background-color: #eee;
+    border: 1px #eee solid;
+    border-radius: 100%;
+    padding: 5px;
+    width: 15px;
+    height: 15px;
+}
+
+.social-container {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
@@ -213,7 +565,7 @@ style for very last footer
 #horizontal-footer-nav li {
     display: inline-block;
     font-size: 11px;
-    padding: 10px 10px;
+    padding: 10px 5px;
 }
 
 footer {
