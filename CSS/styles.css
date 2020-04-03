@@ -148,9 +148,7 @@
   margin-bottom: 30px;
 }
 
-
 /* Main article Styling */
-
 
 /* Main Header */
 
@@ -244,7 +242,6 @@ main > article > header > div > h1 {
   font-size: 14px;
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
-
 
 /* Publisher info Style */
 
@@ -364,7 +361,6 @@ main > article > header > div > h1 {
   margin: 8px 5px;
 }
 
-
 /* comment button style */
 
 .comment-button {
@@ -382,7 +378,6 @@ main > article > header > div > h1 {
 .comment-button:hover {
   background-color: #326891;
 }
-
 
 /* article p styling */
 
@@ -414,15 +409,11 @@ main > article > header > div > h1 {
   text-decoration: none;
 }
 
-
 /* create account styling */
 
 .create-account-div {
   grid-column: 2;
 }
-
-
-
 
 /* aside styles */
 
@@ -459,9 +450,6 @@ aside h3 {
   height: 75px;
   margin-right: 10px;
 }
-
-
-
 
 /* Style for Theory of Inflation */
 
@@ -514,7 +502,6 @@ aside h3 {
   background-color: #000;
 }
 
-
 /* Style Image inside article */
 
 .article-img-container {
@@ -535,7 +522,6 @@ aside h3 {
   text-align: left;
   margin-top: 10px;
 }
-
 
 /* additional links styles */
 
@@ -618,7 +604,6 @@ aside h3 {
 .most-popular > section > ul > li > a:hover {
   color: #666;
 }
-
 
 /* footer styling */
 
