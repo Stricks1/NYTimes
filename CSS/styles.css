@@ -175,25 +175,6 @@ main {
   margin-top: 100px;
 }
 
-.article-p-container div {
-  grid-column: 2;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 12px;
-  margin-bottom: 12px;
-  color: #666;
-}
-
-.create-account-div div {
-  margin: auto;
-  width: 72px;
-  border-bottom: solid 1px #ccc;
-  margin-bottom: 15px;
-}
-
-.aside-bar-container > div {
-  margin-bottom: 10px;
-}
-
 main > article > header > div:first-of-type {
   max-width: 600px;
   margin: auto;
@@ -587,7 +568,6 @@ aside h3 {
   min-height: 12px;
   margin-top: 3px;
   margin-bottom: 4px;
-  font-family: nyt-franklin, georgia, "times new roman";
 }
 
 .linked-articles span:first-of-type:hover {
