@@ -6,7 +6,7 @@ linters:
 
     files:
       ignore:
-        - 'Images/'
+        - 'Images/*'
 
     fixers:
       enable: true

@@ -1,80 +1,151 @@
 /* header styles */
 
 .main-header {
-    width: 100%;
-    top: 0;
+  width: 100%;
+  top: 0;
 }
 
 .logo {
-    top: 0;
-    left: 40%;
+  top: 0;
+  left: 40%;
 }
 
-.logo-small>a {
-    display: inline-block;
+.logo-small > a {
+  display: inline-block;
 }
 
-.logo-small>a>svg {
-    height: 25px;
-    width: 185px;
+.subscribe-div-section svg {
+  width: 13px;
+  height: 13px;
+  margin-right: 7px;
 }
 
-.logo>a>svg {
-    height: 50px;
-    width: 185px;
+.logo-small > a > svg {
+  height: 25px;
+  width: 185px;
+}
+
+.logo > a > svg {
+  height: 50px;
+  width: 185px;
 }
 
 .left-nav {
-    left: 20px;
-    top: 10px;
+  left: 20px;
+  top: 10px;
 }
 
-.left-nav>div>a>svg {
-    width: 18px;
-    height: 18px;
-    margin-right: 9px;
+.left-nav > div > a > svg {
+  width: 18px;
+  height: 18px;
+  margin-right: 9px;
 }
 
-.left-nav>div>a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 13px;
+.right-nav > a {
+  display: inline-block;
+  color: white;
+  background-color: #567b93;
+  border-radius: 3px;
+  transition: 0.4s;
+  border: solid 1px #326891;
+  line-height: 30px;
+  padding: 0 15px;
+  cursor: pointer;
 }
 
-.left-nav>div>a>span {
-    position: relative;
-    top: 4px;
-    left: 15px;
+.create-account-div a {
+  display: block;
+  text-decoration: none;
+  padding-bottom: 15px;
+}
+
+.left-nav > div > a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.comment-text span {
+  font-size: 10px;
+  display: block;
+  margin: 8px;
+  color: black;
+}
+
+.create-account-div span {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.theory-header-container span {
+  color: #666;
+  font-size: 13px;
+}
+
+.inflation-theory span {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.left-nav > div > a > span {
+  position: relative;
+  top: 4px;
+  left: 15px;
 }
 
 .right-nav {
-    right: 10px;
-    top: 10px
+  right: 10px;
+  top: 10px;
 }
 
-.right-nav>a {
-    display: inline-block;
-    color: white;
-    background-color: #567b93;
-    border-radius: 3px;
-    transition: 0.4s;
-    border: solid 1px #326891;
-    line-height: 30px;
-    padding: 0 15px;
-    cursor: pointer;
+.publish-info > p > a {
+  color: #333;
+  text-decoration-color: #ccc;
 }
 
-.right-nav>a:hover {
-    background-color: #326891;
+.more-subject > h3 > a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer-last-nav > ul > li > a {
+  text-decoration: none;
+  font-size: 10px;
+  color: #333;
+}
+
+.most-popular > section > ul > li > a {
+  text-decoration: none;
+  color: black;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 1.15em;
+  line-height: 1.4em;
+  font-weight: normal;
+}
+
+.footer-div > section > ul > li > a {
+  color: black;
+  text-decoration: none;
+  font-size: 12px;
+  height: 23px;
+  line-height: 16px;
+  display: inline-block;
+}
+
+.right-nav > a:hover {
+  background-color: #326891;
 }
 
 #header-nav-container {
-    width: 100%;
-    height: 50px;
-    border-bottom: solid 1px #e2e2e2;
-    background-color: white;
-    margin-bottom: 30px;
+  width: 100%;
+  height: 50px;
+  border-bottom: solid 1px #e2e2e2;
+  background-color: white;
+  margin-bottom: 30px;
 }
 
 
@@ -84,619 +155,546 @@
 /* Main Header */
 
 main {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
-main>article>header>div:first-of-type {
-    max-width: 600px;
-    margin: auto;
+.article-p-container div {
+  grid-column: 2;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 12px;
+  margin-bottom: 12px;
+  color: #666;
 }
 
-main>article>header>div>h1 {
-    color: #121212;
-    font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
-    font-style: italic;
-    font-size: 2.5em;
-    margin-bottom: 16px;
+.create-account-div div {
+  margin: auto;
+  width: 72px;
+  border-bottom: solid 1px #ccc;
+  margin-bottom: 15px;
+}
+
+.aside-bar-container > div {
+  margin-bottom: 10px;
+}
+
+main > article > header > div:first-of-type {
+  max-width: 600px;
+  margin: auto;
+}
+
+main > article > header > div > h1 {
+  color: #121212;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  font-style: italic;
+  font-size: 2.5em;
+  margin-bottom: 16px;
 }
 
 .main-img-container {
-    max-width: 80%;
-    margin: auto;
-    text-align: center;
+  max-width: 80%;
+  margin: auto;
+  text-align: center;
 }
 
-.main-img-container>figure {
-    max-width: 1200px;
-    width: 100%;
-    margin: auto;
+.main-img-container > figure {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
 }
 
-.main-img-container>figure>img {
-    width: 100%;
+.main-img-container > figure > img {
+  width: 100%;
 }
 
-.main-img-container>figure>figcaption {
-    width: 72%;
-    text-align: left;
-    margin-top: 10px;
+.main-img-container > figure > figcaption {
+  width: 72%;
+  text-align: left;
+  margin-top: 10px;
 }
 
-.main-img-container>figure>figcaption>span:first-of-type,
-.video-container>figure>figcaption>span:first-of-type,
-.article-img-container>figure>figcaption>span:first-of-type {
-    color: #666;
-    font-size: 16.5px;
-    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-    margin-right: 7px;
+.linked-articles span:first-of-type {
+  color: black;
+  display: block;
+  line-height: 22px;
 }
 
-.main-img-container>figure>figcaption>span:last-of-type,
-.video-container>figure>figcaption>span:last-of-type,
-.article-img-container>figure>figcaption>span:last-of-type {
-    color: #888;
-    font-size: 14px;
-    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+.linked-articles span:last-of-type {
+  color: #999;
+  text-align: left;
+  font-size: 0.7em;
+}
+
+.aside-bar-container > .figure-link > a > span {
+  align-self: center;
+}
+
+.main-img-container > figure > figcaption > span:first-of-type,
+.video-container > figure > figcaption > span:first-of-type,
+.article-img-container > figure > figcaption > span:first-of-type {
+  color: #666;
+  font-size: 16.5px;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  margin-right: 7px;
+}
+
+.main-img-container > figure > figcaption > span:last-of-type,
+.video-container > figure > figcaption > span:last-of-type,
+.article-img-container > figure > figcaption > span:last-of-type {
+  color: #888;
+  font-size: 14px;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
 
 /* Publisher info Style */
 
 .publish-info {
-    max-width: 600px;
-    margin: 40px auto;
-    color: #333;
+  max-width: 600px;
+  margin: 40px auto;
+  color: #333;
 }
 
-.publish-info>p {
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-    margin-bottom: 20px;
+.publish-info > p {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 20px;
 }
 
-.publish-info>p>a {
-    color: #333;
-    text-decoration-color: #CCC;
+.aside-bar-container > .figure-link > a {
+  text-decoration: none;
+  color: #333;
+  font-size: 12px;
 }
 
-.publish-info>p>a:hover {
-    text-decoration: none;
+.publish-info > p > a:hover {
+  text-decoration: none;
 }
 
 .publish-info time {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .share-info {
-    justify-content: space-between;
-    margin-top: 24px;
-    margin-bottom: 32px;
+  justify-content: space-between;
+  margin-top: 24px;
+  margin-bottom: 32px;
 }
 
-.share-info>li:first-of-type {
-    align-self: center;
+.footer-last-nav > ul > li {
+  display: inline-block;
+  padding: 0 5px;
+  margin-bottom: 15px;
+}
+
+.most-popular > section > ul > li {
+  border-top: solid #e2e2e2 1px;
+  padding: 15px 0;
+}
+
+.share-info > li:first-of-type {
+  align-self: center;
 }
 
 .share-buttons {
-    align-self: center;
+  align-self: center;
 }
 
 .round-border {
-    margin: 8px;
-    border-radius: 100%;
-    width: 25px;
-    height: 25px;
-    background-color: #eee;
-    border: 1px solid #eee;
+  margin: 8px;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  background-color: #eee;
+  border: 1px solid #eee;
 }
 
 .round-border:hover {
-    background-color: white;
-    border: 1px solid #eee;
-    cursor: pointer;
+  background-color: white;
+  border: 1px solid #eee;
+  cursor: pointer;
 }
 
 .facebook {
-    width: 7px;
-    height: 15px;
-    margin: 6px 8px;
+  width: 7px;
+  height: 15px;
+  margin: 6px 8px;
 }
 
 .twitter {
-    width: 13px;
-    height: 10px;
-    margin: 7px;
+  width: 13px;
+  height: 10px;
+  margin: 7px;
 }
 
 .email {
-    width: 15px;
-    height: 9px;
-    margin: 8px 5px;
+  width: 15px;
+  height: 9px;
+  margin: 8px 5px;
 }
 
 .bookmark {
-    stroke: none;
-    width: 16px;
-    height: 25px;
-    margin: 8px;
-    background-color: white;
+  stroke: none;
+  width: 16px;
+  height: 25px;
+  margin: 8px;
+  background-color: white;
 }
 
 .bookmark-border {
-    stroke: #666;
+  stroke: #666;
 }
 
-.bookmark:hover>a>svg>g>.bookmark-border {
-    cursor: pointer;
-    stroke: #CCC;
+.bookmark:hover > a > svg > g > .bookmark-border {
+  cursor: pointer;
+  stroke: #ccc;
 }
 
 .comment-text {
-    background-image: url(/Images/bubble.png);
-    background-position: center;
-    margin-left: 8px;
-    width: 40px;
-    cursor: pointer;
-}
-
-.comment-text span {
-    font-size: 10px;
-    display: block;
-    margin: 8px;
-    color: black;
+  background-image: url(/Images/bubble.png);
+  background-position: center;
+  margin-left: 8px;
+  width: 40px;
+  cursor: pointer;
 }
 
 .share-btn {
-    width: 16px;
-    height: 13px;
-    margin: 8px 5px;
+  width: 16px;
+  height: 13px;
+  margin: 8px 5px;
 }
 
 
 /* comment button style */
 
 .comment-button {
-    color: white;
-    background-color: #567b93;
-    border-radius: 3px;
-    border: solid 1px #326891;
-    height: 35px;
-    width: 330px;
-    padding: 0 15px;
-    cursor: pointer;
-    align-self: center;
+  color: white;
+  background-color: #567b93;
+  border-radius: 3px;
+  border: solid 1px #326891;
+  height: 35px;
+  width: 330px;
+  padding: 0 15px;
+  cursor: pointer;
+  align-self: center;
 }
 
 .comment-button:hover {
-    background-color: #326891;
+  background-color: #326891;
 }
 
 
 /* article p styling */
 
 .article-p-container {
-    display: grid;
-    grid-template-columns: 1fr 600px 1fr;
-    max-width: 1800px;
-    margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 600px 1fr;
+  max-width: 1800px;
+  margin: auto;
 }
 
 .article-p-container p {
-    margin-bottom: 15px;
-    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-    color: #333;
-    font-size: 22px;
-    grid-column: 2;
+  margin-bottom: 15px;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  color: #333;
+  font-size: 22px;
+  grid-column: 2;
 }
 
-.article-p-container div {
-    grid-column: 2;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-size: 12px;
-    margin-bottom: 12px;
-    color: #666;
+.article-p-container > .footer-links > span > a {
+  color: #666;
 }
 
-.article-p-container>.footer-links>span>a {
-    color: #666;
+.inline-link,
+.inline-link:visited {
+  color: #326891;
 }
 
-.article-p-container a,
-.article-p-container a:visited {
-    color: #326891;
-}
-
-.article-p-container a:hover {
-    text-decoration: none;
+.inline-link:hover {
+  text-decoration: none;
 }
 
 
 /* create account styling */
 
 .create-account-div {
-    grid-column: 2;
+  grid-column: 2;
 }
 
-.create-account-div div {
-    margin: auto;
-    width: 72px;
-    border-bottom: solid 1px #ccc;
-    margin-bottom: 15px;
-}
 
-.create-account-div span {
-    display: block;
-    text-align: center;
-    font-weight: bold;
-    font-size: 13px;
-}
-
-.create-account-div a {
-    display: block;
-    text-decoration: none;
-    padding-bottom: 15px;
-}
 
 
 /* aside styles */
 
 aside {
-    width: 210px;
-    height: 327px;
-    margin: 0 auto;
-    grid-column: 3;
-    grid-row: span 3;
-    align-self: center;
+  width: 210px;
+  height: 327px;
+  margin: 0 auto;
+  grid-column: 3;
+  grid-row: span 3;
+  align-self: center;
 }
 
 aside h3 {
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-size: 14px;
-    padding-bottom: 10px;
-    border-bottom: solid 1px #ccc;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 14px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #ccc;
 }
 
 .aside-bar-container {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
-.aside-bar-container>.figure-link>a {
-    text-decoration: none;
-    color: #333;
-    font-size: 12px;
+.article-img-container > figure > img {
+  width: 100%;
 }
 
-.aside-bar-container>.figure-link>a>img {
-    width: 75px;
-    height: 75px;
-    margin-right: 10px;
+.figure-link > a > figure > img {
+  max-width: 100%;
 }
 
-.aside-bar-container>.figure-link>a>span {
-    align-self: center;
+.aside-bar-container > .figure-link > a > img {
+  width: 75px;
+  height: 75px;
+  margin-right: 10px;
 }
 
-.aside-bar-container>div {
-    margin-bottom: 10px;
-}
+
 
 
 /* Style for Theory of Inflation */
 
 .theory-header-container {
-    max-width: 945px;
-    margin: 30px auto 0;
-}
-
-.theory-header-container span {
-    color: #666;
-    font-size: 13px;
+  max-width: 945px;
+  margin: 30px auto 0;
 }
 
 .inflation-theory {
-    background-image: url(https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 600px;
-    margin: auto;
-    max-width: 945px;
-    min-width: 875px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-column-gap: 20px;
-}
-
-.inflation-theory span {
-    font-size: 11px;
-    font-weight: bold;
-    letter-spacing: .05em;
+  background-image: url(https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 600px;
+  margin: auto;
+  max-width: 945px;
+  min-width: 875px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 20px;
 }
 
 .inflation-theory p {
-    font-size: 13px;
-    font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 13px;
+  font-family: arial, helvetica, sans-serif;
 }
 
 .first-row {
-    grid-row: 2;
+  grid-row: 2;
 }
 
 .secound-row {
-    grid-row: 4;
+  grid-row: 4;
 }
 
 .theory-footer-container {
-    max-width: 945px;
-    margin: 50px auto;
-    font-family: nyt-franklin, arial, helvetica, sans-serif;
-    font-size: 13px;
-    color: #333;
+  max-width: 945px;
+  margin: 50px auto;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 13px;
+  color: #333;
 }
 
 .theory-footer-container::before {
-    width: 60px;
-    content: '';
-    display: inline-block;
-    height: 1px;
-    margin: 0 0 16px;
-    background-color: #000;
+  width: 60px;
+  content: '';
+  display: inline-block;
+  height: 1px;
+  margin: 0 0 16px;
+  background-color: #000;
 }
 
 
 /* Style Image inside article */
 
 .article-img-container {
-    max-width: 80%;
-    margin: auto;
-    text-align: center;
-    margin-bottom: 40px;
+  max-width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-.article-img-container>figure {
-    width: 100%;
+.article-img-container > figure {
+  max-width: 720px;
+  width: 100%;
+  margin: auto;
 }
 
-.article-img-container>figure {
-    max-width: 720px;
-    width: 100%;
-    margin: auto;
-}
-
-.article-img-container>figure>figcaption {
-    width: 100%;
-    text-align: left;
-    margin-top: 10px;
-}
-
-.article-img-container>figure>img {
-    width: 100%;
+.article-img-container > figure > figcaption {
+  width: 100%;
+  text-align: left;
+  margin-top: 10px;
 }
 
 
 /* additional links styles */
 
 .outside-links-container {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .outside-links-container::after {
-    content: '';
-    display: block;
-    clear: both;
+  content: '';
+  display: block;
+  clear: both;
 }
 
 .figure-links-container {
-    width: 75%;
-    /* background-color: blue; */
+  width: 75%;
+
+  /* background-color: blue; */
 }
 
 .most-popular {
-    margin-left: 78%;
+  margin-left: 78%;
 }
 
 .figure-link {
-    flex-grow: 1;
-    margin: 0 20px 20px 0;
+  flex-grow: 1;
+  margin: 0 20px 20px 0;
 }
 
-.figure-link>a>figure {
-    max-width: 100%;
-}
-
-.figure-link>a>figure>img {
-    max-width: 100%;
+.figure-link > a > figure {
+  max-width: 100%;
 }
 
 .linked-articles {
-    text-decoration: none;
-    display: inline-block;
+  text-decoration: none;
+  display: inline-block;
 }
 
-.linked-articles>figure>figcaption {
-    color: #999999;
-    font-size: 0.7em;
-    text-align: right;
-    min-height: 12px;
-    margin-top: 3px;
-    margin-bottom: 4px;
-    font-family: nyt-cheltenham-small, georgia, "times new roman";
-}
-
-.linked-articles span:first-of-type {
-    color: black;
-    display: block;
-    line-height: 22px;
+.linked-articles > figure > figcaption {
+  color: #999;
+  font-size: 0.7em;
+  text-align: right;
+  min-height: 12px;
+  margin-top: 3px;
+  margin-bottom: 4px;
+  font-family: nyt-franklin, georgia, "times new roman";
 }
 
 .linked-articles span:first-of-type:hover {
-    color: #666666;
+  color: #666;
 }
 
-.linked-articles span:last-of-type {
-    color: #999999;
-    text-align: left;
-    font-size: 0.7em;
+.more-subject > h3 {
+  padding: 22px 0 17px 0;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  border-top: solid black 1px;
+  margin-right: 20px;
 }
 
-.more-subject>h3 {
-    padding: 22px 0 17px 0;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    border-top: solid black 1px;
-    margin-right: 20px;
+.most-popular > section > h3 {
+  padding: 22px 0 17px 0;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  border-top: solid black 1px;
+  color: #333;
 }
 
-.more-subject>h3>a {
-    color: black;
-    text-decoration: none;
+.subscribe-div-section > section > .font-10 > li > a {
+  font-size: 10px;
+  color: black;
+  text-decoration: none;
+  height: 20px;
+  line-height: 14px;
+  display: inline-block;
 }
 
-.most-popular>section>h3 {
-    padding: 22px 0 17px 0;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    border-top: solid black 1px;
-    color: #333333;
-}
-
-.most-popular>section>ul>li {
-    border-top: solid #e2e2e2 1px;
-    padding: 15px 0;
-}
-
-.most-popular>section>ul>li>a {
-    text-decoration: none;
-    color: black;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-size: 1.15em;
-    line-height: 1.4em;
-    font-weight: normal;
-}
-
-.most-popular>section>ul>li>a:hover {
-    color: #666666;
+.most-popular > section > ul > li > a:hover {
+  color: #666;
 }
 
 
 /* footer styling */
 
 .footer-page #foot-header:first-child::after {
-    content: "";
-    display: block;
-    clear: both;
+  content: "";
+  display: block;
+  clear: both;
 }
 
-.footer-page>#foot-header {
-    margin-top: 8px;
-    grid-template-columns: repeat(2, 1fr);
+.footer-page > #foot-header {
+  margin-top: 8px;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.footer-page>#foot-header a:last-of-type {
-    text-decoration: none;
-    align-self: end;
-    justify-self: self-end;
-    color: #567b93;
-    font-size: 11px;
+.subscribe-div-section > section ul:first-of-type > li > a {
+  text-decoration: none;
+  margin-bottom: 5px;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.footer-page > #foot-header a:last-of-type {
+  text-decoration: none;
+  align-self: end;
+  justify-self: self-end;
+  color: #567b93;
+  font-size: 11px;
 }
 
 .footer-page {
-    max-width: 1200px;
-    margin: 100px auto 0 auto;
+  max-width: 1200px;
+  margin: 100px auto 0 auto;
 }
 
 .footer-page::before {
-    border-bottom: 1px solid #e2e2e2;
-    border-top: 2px solid #e2e2e2;
-    content: '';
-    display: block;
-    height: 4px;
-    margin-top: 0;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+  content: '';
+  display: block;
+  height: 4px;
+  margin-top: 0;
 }
 
 .footer-div {
-    margin-top: 20px;
-    grid-template-columns: repeat(6, 1fr);
-    padding-bottom: 9px;
+  margin-top: 20px;
+  grid-template-columns: repeat(6, 1fr);
+  padding-bottom: 9px;
 }
 
-.footer-div>section>h2,
-.subscribe-div-section>section>h2 {
-    color: #333333;
-    font-size: 12px;
-    height: 25px;
-    font-weight: bold;
-}
-
-.footer-div>section>ul>li>a {
-    color: black;
-    text-decoration: none;
-    font-size: 12px;
-    height: 23px;
-    line-height: 16px;
-    display: inline-block;
+.footer-div > section > h2,
+.subscribe-div-section > section > h2 {
+  color: #333;
+  font-size: 12px;
+  height: 25px;
+  font-weight: bold;
 }
 
 .subscribe-div-section {
-    border-left: solid 1px #e2e2e2;
-    padding-left: 15px;
+  border-left: solid 1px #e2e2e2;
+  padding-left: 15px;
 }
 
-.subscribe-div-section svg {
-    width: 13px;
-    height: 13px;
-    margin-right: 7px;
+.subscribe-div-section > section ul:first-of-type > li {
+  width: 200px;
+  height: 26px;
+  margin-bottom: 5px;
 }
 
-.subscribe-div-section>section ul:first-of-type>li {
-    width: 200px;
-    height: 26px;
-    margin-bottom: 5px;
-}
-
-.subscribe-div-section>section ul:first-of-type>li>a {
-    text-decoration: none;
-    margin-bottom: 5px;
-    color: black;
-    font-weight: bold;
-    font-size: 14px;
-}
-
-.subscribe-div-section>section>ul:last-of-type,
+.subscribe-div-section > section > ul:last-of-type,
 .footer-last-nav {
-    border-top: solid 1px #e2e2e2;
-    padding-top: 10px;
+  border-top: solid 1px #e2e2e2;
+  padding-top: 10px;
 }
 
 .footer-last-nav {
-    margin-bottom: 20px;
-}
-
-.subscribe-div-section>section>.font-10>li>a {
-    font-size: 10px;
-    color: black;
-    text-decoration: none;
-    height: 20px;
-    line-height: 14px;
-    display: inline-block;
-}
-
-.footer-last-nav>ul>li {
-    display: inline-block;
-    padding: 0 5px;
-    margin-bottom: 15px;
-}
-
-.footer-last-nav>ul>li>a {
-    text-decoration: none;
-    font-size: 10px;
-    color: #333333;
-}
-
-.footer-last-nav {
-    text-align: center;
+  text-align: center;
+  margin-bottom: 20px;
 }
