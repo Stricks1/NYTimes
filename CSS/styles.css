@@ -14,15 +14,12 @@
   display: inline-block;
 }
 
-<<<<<<< HEAD
 .subscribe-div-section svg {
   width: 13px;
   height: 13px;
   margin-right: 7px;
 }
 
-=======
->>>>>>> 1ad2c5b8a5459ea8ecfdf69e753d420a62b807d6
 .logo-small > a > svg {
   height: 25px;
   width: 185px;
@@ -36,7 +33,6 @@
 .left-nav {
   left: 20px;
   top: 10px;
-<<<<<<< HEAD
 }
 
 .left-nav > div > a > svg {
@@ -152,90 +148,6 @@
   margin-bottom: 30px;
 }
 
-=======
-}
-
-.left-nav > div > a > svg {
-  width: 18px;
-  height: 18px;
-  margin-right: 9px;
-}
-
-.right-nav > a {
-  display: inline-block;
-  color: white;
-  background-color: #567b93;
-  border-radius: 3px;
-  transition: 0.4s;
-  border: solid 1px #326891;
-  line-height: 30px;
-  padding: 0 15px;
-  cursor: pointer;
-}
-
-.article-p-container a {
-  color: #326891;
-}
-
-.create-account-div a {
-  display: block;
-  text-decoration: none;
-  padding-bottom: 15px;
-}
-
-.left-nav > div > a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  font-size: 13px;
-}
-
-.article-p-container a:visited {
-  color: #326891;
-}
-
-.create-account-div span {
-  display: block;
-  text-align: center;
-  font-weight: bold;
-  font-size: 13px;
-}
-
-.theory-header-container span {
-  color: #666;
-  font-size: 13px;
-}
-  
-.inflation-theory span {
-  font-size: 11px;
-  font-weight: bold;
-  letter-spacing: 0.05em;
-}
-
-.left-nav > div > a > span {
-  position: relative;
-  top: 4px;
-  left: 15px;
-}
-
-.right-nav {
-  right: 10px;
-  top: 10px;
-}
-
-.right-nav > a:hover {
-  background-color: #326891;
-}
-
-#header-nav-container {
-  width: 100%;
-  height: 50px;
-  border-bottom: solid 1px #e2e2e2;
-  background-color: white;
-  margin-bottom: 30px;
-}
-
->>>>>>> 1ad2c5b8a5459ea8ecfdf69e753d420a62b807d6
 /* Main article Styling */
 
 /* Main Header */
@@ -261,7 +173,6 @@
 
 main {
   margin-top: 100px;
-<<<<<<< HEAD
 }
 
 .article-p-container div {
@@ -291,18 +202,6 @@ main > article > header > div:first-of-type {
 main > article > header > div > h1 {
   color: #121212;
   font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
-=======
-}
-
-main > article > header > div:first-of-type {
-  max-width: 600px;
-  margin: auto;
-}
-
-main > article > header > div > h1 {
-  color: #121212;
-  font-family: georgia, 'times new roman', times, serif;
->>>>>>> 1ad2c5b8a5459ea8ecfdf69e753d420a62b807d6
   font-style: italic;
   font-size: 2.5em;
   margin-bottom: 16px;
@@ -312,7 +211,6 @@ main > article > header > div > h1 {
   max-width: 80%;
   margin: auto;
   text-align: center;
-<<<<<<< HEAD
 }
 
 .main-img-container > figure {
@@ -356,55 +254,12 @@ main > article > header > div > h1 {
   margin-right: 7px;
 }
 
-=======
-}
-
-.main-img-container > figure {
-  max-width: 1200px;
-  width: 100%;
-  margin: auto;
-}
-
-.main-img-container > figure > img {
-  width: 100%;
-}
-
-.main-img-container > figure > figcaption {
-  width: 72%;
-  text-align: left;
-  margin-top: 10px;
-}
-
-.linked-articles span:first-of-type {
-  color: black;
-  display: block;
-  line-height: 22px;
-}
-
-.aside-bar-container > .figure-link > a > span {
-  align-self: center;
-}
-
-.main-img-container > figure > figcaption > span:first-of-type,
-.video-container > figure > figcaption > span:first-of-type,
-.article-img-container > figure > figcaption > span:first-of-type {
-  color: #666;
-  font-size: 16.5px;
-  font-family: georgia, 'times new roman', times, serif;
-  margin-right: 7px;
-}
-
->>>>>>> 1ad2c5b8a5459ea8ecfdf69e753d420a62b807d6
 .main-img-container > figure > figcaption > span:last-of-type,
 .video-container > figure > figcaption > span:last-of-type,
 .article-img-container > figure > figcaption > span:last-of-type {
   color: #888;
   font-size: 14px;
-<<<<<<< HEAD
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-=======
-  font-family: georgia, 'times new roman', times, serif;
->>>>>>> 1ad2c5b8a5459ea8ecfdf69e753d420a62b807d6
 }
 
 /* Publisher info Style */
@@ -416,17 +271,12 @@ main > article > header > div > h1 {
 }
 
 .publish-info > p {
-<<<<<<< HEAD
   font-family: nyt-franklin, helvetica, arial, sans-serif;
-=======
-  font-family: helvetica, arial, sans-serif;
->>>>>>> 1ad2c5b8a5459ea8ecfdf69e753d420a62b807d6
   font-weight: bold;
   font-size: 14px;
   margin-bottom: 20px;
 }
 
-<<<<<<< HEAD
 .aside-bar-container > .figure-link > a {
   text-decoration: none;
   color: #333;
@@ -434,14 +284,6 @@ main > article > header > div > h1 {
 }
 
 .publish-info > p > a:hover {
-=======
-.publish-link {
-  color: #333;
-  text-decoration-color: #ccc;
-}
-
-.publish-link:hover {
->>>>>>> 1ad2c5b8a5459ea8ecfdf69e753d420a62b807d6
   text-decoration: none;
 }
 
@@ -453,7 +295,6 @@ main > article > header > div > h1 {
   justify-content: space-between;
   margin-top: 24px;
   margin-bottom: 32px;
-<<<<<<< HEAD
 }
 
 .footer-last-nav > ul > li {
@@ -467,10 +308,6 @@ main > article > header > div > h1 {
   padding: 15px 0;
 }
 
-=======
-}
-
->>>>>>> 1ad2c5b8a5459ea8ecfdf69e753d420a62b807d6
 .share-info > li:first-of-type {
   align-self: center;
 }
@@ -537,16 +374,6 @@ main > article > header > div > h1 {
   width: 40px;
   cursor: pointer;
 }
-<<<<<<< HEAD
-=======
-
-.comment-text span {
-  font-size: 10px;
-  display: block;
-  margin: 8px;
-  color: black;
-} */
->>>>>>> 1ad2c5b8a5459ea8ecfdf69e753d420a62b807d6
 
 .share-btn {
   width: 16px;
@@ -583,17 +410,12 @@ main > article > header > div > h1 {
 
 .article-p-container p {
   margin-bottom: 15px;
-<<<<<<< HEAD
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-=======
-  font-family: georgia, 'times new roman', times, serif;
->>>>>>> 1ad2c5b8a5459ea8ecfdf69e753d420a62b807d6
   color: #333;
   font-size: 22px;
   grid-column: 2;
 }
 
-<<<<<<< HEAD
 .article-p-container > .footer-links > span > a {
   color: #666;
 }
@@ -605,20 +427,6 @@ main > article > header > div > h1 {
 
 .inline-link:hover {
   text-decoration: none;
-=======
-.article-p-container a:hover {
-  text-decoration: none;
-}
-
-.aside-bar-container > .figure-link > a {
-  text-decoration: none;
-  color: #333;
-  font-size: 12px;
-}
-
-.article-p-container > .footer-links > span > a {
-  color: #666;
->>>>>>> 1ad2c5b8a5459ea8ecfdf69e753d420a62b807d6
 }
 
 /* create account styling */
@@ -639,11 +447,7 @@ aside {
 }
 
 aside h3 {
-<<<<<<< HEAD
   font-family: nyt-franklin, helvetica, arial, sans-serif;
-=======
-  font-family: helvetica, arial, sans-serif;
->>>>>>> 1ad2c5b8a5459ea8ecfdf69e753d420a62b807d6
   font-size: 14px;
   padding-bottom: 10px;
   border-bottom: solid 1px #ccc;
@@ -754,11 +558,8 @@ aside h3 {
 
 .figure-links-container {
   width: 75%;
-<<<<<<< HEAD
 
   /* background-color: blue; */
-=======
->>>>>>> 1ad2c5b8a5459ea8ecfdf69e753d420a62b807d6
 }
 
 .most-popular {
@@ -786,15 +587,11 @@ aside h3 {
   min-height: 12px;
   margin-top: 3px;
   margin-bottom: 4px;
-<<<<<<< HEAD
   font-family: nyt-franklin, georgia, "times new roman";
-=======
->>>>>>> 1ad2c5b8a5459ea8ecfdf69e753d420a62b807d6
 }
 
 .linked-articles span:first-of-type:hover {
   color: #666;
-<<<<<<< HEAD
 }
 
 .more-subject > h3 {
@@ -822,51 +619,6 @@ aside h3 {
   height: 20px;
   line-height: 14px;
   display: inline-block;
-=======
-}
-
-.linked-articles span:last-of-type {
-  color: #999;
-  text-align: left;
-  font-size: 0.7em;
-}
-
-.more-subject > h3 {
-  padding: 22px 0 17px 0;
-  font-size: 15px;
-  font-weight: bold;
-  font-family: helvetica, arial, sans-serif;
-  border-top: solid black 1px;
-  margin-right: 20px;
-}
-
-.more-subject > h3 > a {
-  color: black;
-  text-decoration: none;
-}
-
-.most-popular > section > h3 {
-  padding: 22px 0 17px 0;
-  font-size: 15px;
-  font-weight: bold;
-  font-family: helvetica, arial, sans-serif;
-  border-top: solid black 1px;
-  color: #333;
-}
-
-.most-popular > section > ul > li {
-  border-top: solid #e2e2e2 1px;
-  padding: 15px 0;
-}
-
-.most-popular > section > ul > li > a {
-  text-decoration: none;
-  color: black;
-  font-family: helvetica, arial, sans-serif;
-  font-size: 1.15em;
-  line-height: 1.4em;
-  font-weight: normal;
->>>>>>> 1ad2c5b8a5459ea8ecfdf69e753d420a62b807d6
 }
 
 .most-popular > section > ul > li > a:hover {
@@ -886,7 +638,6 @@ aside h3 {
   grid-template-columns: repeat(2, 1fr);
 }
 
-<<<<<<< HEAD
 .subscribe-div-section > section ul:first-of-type > li > a {
   text-decoration: none;
   margin-bottom: 5px;
@@ -895,8 +646,6 @@ aside h3 {
   font-size: 14px;
 }
 
-=======
->>>>>>> 1ad2c5b8a5459ea8ecfdf69e753d420a62b807d6
 .footer-page > #foot-header a:last-of-type {
   text-decoration: none;
   align-self: end;
@@ -923,7 +672,6 @@ aside h3 {
   margin-top: 20px;
   grid-template-columns: repeat(6, 1fr);
   padding-bottom: 9px;
-<<<<<<< HEAD
 }
 
 .footer-div > section > h2,
@@ -932,39 +680,11 @@ aside h3 {
   font-size: 12px;
   height: 25px;
   font-weight: bold;
-=======
-}
-
-.footer-div > section > h2,
-.subscribe-div-section > section > h2 {
-  color: #333;
-  font-size: 12px;
-  height: 25px;
-  font-weight: bold;
-}
-
-.footer-div > section > ul > li > a {
-  color: black;
-  text-decoration: none;
-  font-size: 12px;
-  height: 23px;
-  line-height: 16px;
-  display: inline-block;
->>>>>>> 1ad2c5b8a5459ea8ecfdf69e753d420a62b807d6
 }
 
 .subscribe-div-section {
   border-left: solid 1px #e2e2e2;
   padding-left: 15px;
-<<<<<<< HEAD
-=======
-}
-
-.subscribe-div-section svg {
-  width: 13px;
-  height: 13px;
-  margin-right: 7px;
->>>>>>> 1ad2c5b8a5459ea8ecfdf69e753d420a62b807d6
 }
 
 .subscribe-div-section > section ul:first-of-type > li {
@@ -973,17 +693,6 @@ aside h3 {
   margin-bottom: 5px;
 }
 
-<<<<<<< HEAD
-=======
-.subscribe-div-section > section ul:first-of-type > li > a {
-  text-decoration: none;
-  margin-bottom: 5px;
-  color: black;
-  font-weight: bold;
-  font-size: 14px;
-}
-
->>>>>>> 1ad2c5b8a5459ea8ecfdf69e753d420a62b807d6
 .subscribe-div-section > section > ul:last-of-type,
 .footer-last-nav {
   border-top: solid 1px #e2e2e2;
@@ -991,33 +700,6 @@ aside h3 {
 }
 
 .footer-last-nav {
-<<<<<<< HEAD
   text-align: center;
   margin-bottom: 20px;
 }
-=======
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.subscribe-div-section > section > .font-10 > li > a {
-  font-size: 10px;
-  color: black;
-  text-decoration: none;
-  height: 20px;
-  line-height: 14px;
-  display: inline-block;
-}
-
-.footer-last-nav > ul > li {
-  display: inline-block;
-  padding: 0 5px;
-  margin-bottom: 15px;
-}
-
-.footer-last-nav > ul > li > a {
-  text-decoration: none;
-  font-size: 10px;
-  color: #333;
-}
->>>>>>> 1ad2c5b8a5459ea8ecfdf69e753d420a62b807d6
