@@ -16,6 +16,8 @@ As well as display properties.
 # Authors
 Gabriel Silveira
  - Github: [@Stricks1](https://github.com/Stricks1)
+ - Linkedin: [@Gabriel Silveira](https://www.linkedin.com/in/gabriel-malheiros-silveira-b6632061/)
+ - Email: [gmalheiross@gmail.com]
 
  Dismas Asiimwe
  - Github: [@asiimwedismas](https://github.com/asiimwedismas)
