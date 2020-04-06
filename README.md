@@ -11,7 +11,7 @@ As well as display properties.
 - CSS
 
 # Live Demo
-[Live demo](https://rawcdn.githack.com/Stricks1/NYTimes/33d82a3bd30511d5197b91065fed6a403a10bbc0/index.html)
+[Live demo](https://rawcdn.githack.com/Stricks1/NYTimes/bf49abd2017041d511a664cb67cc4d3c96babbc8/index.html)
 
 # Authors
 Gabriel Silveira
@@ -21,3 +21,5 @@ Gabriel Silveira
 
  Dismas Asiimwe
  - Github: [@asiimwedismas](https://github.com/asiimwedismas)
+ - Linkedin: [@asiimwedismas](https://www.linkedin.com/in/asiimwedismas/)
+ - Twitter: [@asiimwedismas](https://www.twitter.com/asiimwedismas)
