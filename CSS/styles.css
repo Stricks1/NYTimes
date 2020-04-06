@@ -5,6 +5,11 @@
   top: 0;
 }
 
+.main-footer {
+  width: 100%;
+  bottom: 0;
+}
+
 .logo {
   top: 0;
   left: 40%;
@@ -140,12 +145,21 @@
   background-color: #326891;
 }
 
-#header-nav-container {
+.fixed-container {
   width: 100%;
   height: 50px;
+}
+
+#header-nav-container {
   border-bottom: solid 1px #e2e2e2;
   background-color: white;
   margin-bottom: 30px;
+}
+
+#footer-nav-container {
+  border-top: solid 1px black;
+  background-color: white;
+
 }
 
 /* Main article Styling */
@@ -282,6 +296,21 @@ main > article > header > div > h1 {
   display: inline-block;
   padding: 0 5px;
   margin-bottom: 15px;
+}
+
+#footer-nav-container > nav > a {
+  width: 100%;
+  padding-top: 10px;
+}
+
+.footer-message{
+  top: 0;
+  left: 35%;
+}
+
+.expand {
+  top: 0;
+  left: 40%;
 }
 
 .most-popular > section > ul > li {
@@ -607,6 +636,7 @@ aside h3 {
 
 /* footer styling */
 
+
 .footer-page #foot-header:first-child::after {
   content: "";
   display: block;
@@ -637,6 +667,7 @@ aside h3 {
 .footer-page {
   max-width: 1200px;
   margin: 100px auto 0 auto;
+  margin-bottom: 55px;
 }
 
 .footer-page::before {
